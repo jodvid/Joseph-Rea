@@ -1088,6 +1088,7 @@ footer {
 #hashtag-link {
   position: relative;
   display: inline-block;
+  align-content: center;
 }
 
 #default-image, #hover-image {
@@ -1096,6 +1097,7 @@ footer {
   height: auto;
   transition: opacity 0.3s ease-in-out;
   position: absolute;
+  align-content: center;
   top: 0;
   left: 0;
   padding-top: 10px;

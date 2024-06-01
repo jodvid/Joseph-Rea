@@ -325,17 +325,15 @@ Hero
   }
 }
 
-
-// background 2
 .hero2 {
-  min-height: 450px;
+  min-height: 750px;
   background: url('../img/bhero.png') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   position: relative;
-  height: fit-content;
+  // padding-right: 20%;
 
   // .rsvp-btn {
   //   position: absolute;
@@ -355,62 +353,25 @@ Hero
     font-weight: 300;
     margin-bottom: 80px;
   }
-  .hero-content2 {
-    padding-top: 60%;
-  }
-  .hero-content img {
-    width: 80%;
-    margin-bottom: 12%;
-  }
-}
-
-// background 3
-.ahero {
-  min-height: 450px;
-  background: url('../img/ahero.png') center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: relative;
-  height: fit-content;
-
-  // .rsvp-btn {
-  //   position: absolute;
-  //   bottom: 100px;
-  //   left: 50%;
-  // }
-  .down-arrow a {
-    color: $txt-light;
-  }
-  h1 {
-    color: $txt-light;
-    margin-bottom: 40px;
-  }
-  p.intro {
-    color: $txt-light;
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 80px;
-  }
-  .hero-content2 {
-    padding-top: 100%;
+  .hero-content {
+    padding-top: 20%;
   }
   .hero-content img {
     width: 100%;
-    // margin-bottom: 12%;
+    margin-bottom: 12%;
+
   }
 }
-// background 5
+
 .chero {
-  min-height: 450px;
+  min-height: 750px;
   background: url('../img/chero.png') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   position: relative;
-  height: fit-content;
+  // padding-right: 20%;
 
   // .rsvp-btn {
   //   position: absolute;
@@ -430,16 +391,15 @@ Hero
     font-weight: 300;
     margin-bottom: 80px;
   }
-  .hero-content2 {
-    padding-top: 100%;
+  .hero-content {
+    padding-top: 20%;
   }
   .hero-content img {
-    width: 60%;
+    width: 100%;
     margin-bottom: 12%;
+
   }
 }
-
-
 
 
 .navigation {
